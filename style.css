@@ -46,9 +46,6 @@ HEADER
 .home:hover {
     color: #e5e5e5;
 }
-.fa-bars {
-    display: none;
-}
 
 /*
 
@@ -162,13 +159,7 @@ NAV
     scale: 1;
     color: #000;
 }
-.dropdown {
-    height: fit-content;
-    transform: scale(0);
-}
-.dropdown.drop {
-    transform: scale(1);
-}
+
 
 /*
 
@@ -265,13 +256,5 @@ BUTTONS
         position: absolute;
         right: 12.5%;
         cursor: pointer;
-    }
-    .mob-nav-container {
-        height: 100%;
-        position: absolute;
-        width: 100%;
-        top: 85px;
-        background-color: #2a2a2a;
-        z-index: 100;
     }
 }
